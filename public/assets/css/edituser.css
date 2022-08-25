@@ -1,0 +1,37 @@
+.kotak-cari input {
+    height: 30px !important;
+    font-size: 14px;
+}
+
+.user-cari {
+    border: none;
+    border-radius: 50px;
+    padding: 0 30px;
+    background-color: var(--child);
+    color: white;
+    font-size: 12px;
+}
+
+.edit-user-table .btn-delete {
+    padding: 4px 8px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+.edit-user-table .btn-edit {
+    padding: 4px 8px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+.edit-user-table .btn-edit-password {
+    padding: 4px 8px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+.card-profil {
+    border-radius: 10px;
+    background-color: #e9e8e8;
+}

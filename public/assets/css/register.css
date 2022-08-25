@@ -1,0 +1,64 @@
+.container-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+    min-height: 90vh;
+    max-width: 750px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.tombol-register {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tombol-register button {
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    background-color: var(--main);
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.tombol-register button:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+.register {
+    width: 100%;
+    background-color: #ecebf5;
+}
+
+.ppp {
+    position: absolute;
+    top: 29px;
+    right: 30px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ppp:hover {
+    cursor: pointer;
+}
+
+.ppp::before {
+    content: "\f06e";
+    font-family: fontAwesome;
+}
+.hide::before {
+    content: "\f070";
+}

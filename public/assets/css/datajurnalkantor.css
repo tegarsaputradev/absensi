@@ -1,0 +1,58 @@
+.data-kantor {
+    max-width: 760px;
+    padding: 5px;
+    margin: auto;
+}
+
+.tabel-kantor th,
+.tabel-kantor td {
+    padding: 2px 10px;
+}
+
+.tabel-kantor td:nth-child(1),
+.tabel-kantor td:nth-child(3),
+.tabel-kantor td:nth-child(4) {
+    vertical-align: top;
+}
+.tabel-kantor td:nth-child(2),
+.tabel-kantor td:nth-child(5) {
+    text-align: left;
+    vertical-align: top;
+}
+.data-kantor .kantor-kegiatan {
+    width: 400px;
+}
+.data-kantor .kantor-nama {
+    width: 200px;
+}
+
+.data-kantor .kantor-kegiatan-td {
+    text-align: left;
+}
+
+.jka-jls .kepala {
+    max-width: 750px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.jka-jls .kepala .satu img {
+    max-width: 100px;
+    height: auto;
+}
+
+.jka-jls .kepala .judul-absensi span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.kantor-date-picker {
+    width: 250px;
+    margin: auto;
+}
+
+.kantor-date-picker input {
+    font-size: 12px;
+    padding: 3px;
+    text-align: center;
+}

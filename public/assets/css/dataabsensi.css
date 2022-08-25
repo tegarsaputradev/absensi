@@ -1,0 +1,105 @@
+.query {
+    width: 100%;
+    padding: 7px;
+}
+
+.query .kepala {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.query .kepala .satu img {
+    max-width: 100px;
+    height: auto;
+}
+
+.query .kepala .dua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.judul-absensi span {
+    font-weight: 600;
+    font-size: 20px;
+}
+.judul-child span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.input-group {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.form {
+    padding: 10px 0;
+    width: 350px;
+    margin: auto;
+}
+
+/* .form-control {
+    height: 28px;
+    font-size: 10px !important;
+} */
+
+.cari {
+    padding: 6px 40px;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-left: 8px;
+    border: 1px solid #d1d1d1;
+    color: white;
+    background-color: #0075c1;
+}
+
+.tabel-data {
+    border: 0.5px solid #999;
+    margin: auto;
+}
+
+.tabel-data th {
+    border-right: 0.5px solid #999;
+    border-bottom: 0.5px solid #999;
+}
+
+.tabel-data td {
+    border-right: 0.5px solid #999;
+    border-bottom: 0.5px solid #999;
+    border-top: 0.5px solid #999;
+}
+
+.tabel-data,
+.tabel-data th,
+.tabel-data td {
+    font-size: 10px;
+    padding: 0 4px;
+    color: #333;
+    text-align: center;
+}
+.tabel-data {
+    counter-reset: row-num -1;
+}
+.tabel-data tr {
+    counter-increment: row-num;
+}
+.tabel-data tr td:first-child::before {
+    content: counter(row-num) ". ";
+}
+
+.tabel-data .nama-absensi-td {
+    min-width: 190px;
+    text-align: left;
+}
+
+.tiga .tiga-child input {
+    font-size: 12px;
+    text-align: center;
+    padding: 3px;
+}
+
+.signature {
+    font-size: 10px;
+}

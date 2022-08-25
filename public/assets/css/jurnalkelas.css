@@ -1,0 +1,164 @@
+.jurnal-kelas-table {
+    width: 100%;
+}
+
+.kelas9wrapper,
+.kelas8wrapper,
+.kelas7wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: end;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.75);
+}
+
+.kelas7wrapper {
+    background-color: #f9daa7;
+}
+.kelas8wrapper {
+    background-color: #f8d0bf;
+}
+.kelas9wrapper {
+    background-color: #a0e7e5;
+}
+
+.kelas9wrapper a,
+.kelas8wrapper a,
+.kelas7wrapper a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #df362d;
+    display: flex;
+    align-self: start;
+}
+
+.kelas9wrapper a:hover,
+.kelas8wrappera:hover,
+.kelas7wrapper a:hover {
+    color: #c3251c;
+}
+
+.kelas9wrapper a:hover,
+.kelas8wrapper a:hover,
+.kelas7wrapper a:hover {
+    cursor: pointer;
+}
+
+.tambahkelas7,
+.tambahkelas8,
+.tambahkelas9 {
+    border: none;
+    padding: 10px 0;
+    max-width: 90px;
+    border-radius: 55px;
+    outline: none;
+    color: white;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--child);
+}
+
+.tambahkelas7:hover,
+.tambahkelas8:hover,
+.tambahkelas9:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.input-jurnalk {
+    border-bottom: 1px solid #999;
+}
+.judul-jurnal {
+    margin-top: 60px;
+}
+
+.simpan-jurnalkelas {
+    display: flex;
+    justify-content: center;
+}
+
+.simpan-jurnalkelas button {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 55px;
+    outline: none;
+    background-color: var(--main);
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Output Jurnal Kelas 7 */
+
+.data-kelas-7 {
+    max-width: 860px;
+    margin: auto;
+}
+.data-kelas-7 .kepala {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.data-kelas-7 .kepala .satu img {
+    max-width: 100px;
+    height: auto;
+}
+
+.data-kelas-7 .kepala .judul-absensi span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.kantor-date-picker {
+    width: 250px;
+    margin: auto;
+}
+
+.kantor-date-picker input {
+    font-size: 12px;
+    padding: 3px;
+    text-align: center;
+}
+
+.data-kelas-7 .kelas-nama {
+    width: 200px;
+}
+.data-kelas-7 .kelas-kegiatan {
+    width: 400px;
+}
+
+/* Tabel Jurnal Kelas */
+.jurnal-kelas-table {
+    counter-reset: row-num -2;
+}
+.jurnal-kelas-table tr {
+    counter-increment: row-num;
+}
+.jurnal-kelas-table tr td:first-child::before {
+    content: counter(row-num) ". ";
+}
+
+.jurnal-kelas-table td:nth-child(1),
+.jurnal-kelas-table td:nth-child(4),
+.jurnal-kelas-table td:nth-child(5) {
+    vertical-align: top;
+}
+
+.jurnal-kelas-table td:nth-child(2),
+.jurnal-kelas-table td:nth-child(6) {
+    text-align: left;
+    vertical-align: top;
+}
+
+.jurnal-kelas-table td:nth-child(3) {
+    min-width: 85px;
+    vertical-align: top;
+}

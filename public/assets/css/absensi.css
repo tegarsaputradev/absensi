@@ -1,0 +1,136 @@
+/* Container */
+.section-start {
+    background-color: #f2f5fa;
+    max-width: 750px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.75);
+}
+
+.section-child {
+    min-height: 92vh;
+}
+.jurnal-kelas {
+    margin-top: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ecebf5;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--main);
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #333;
+    cursor: pointer;
+}
+
+.input-absensi {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.jurnal-section {
+    display: flex;
+    flex-direction: column;
+}
+.input-jurnal {
+    display: flex;
+    flex-direction: column;
+}
+.waktu {
+    max-width: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.waktu-anak input {
+    width: 100%;
+}
+
+.tombol {
+    padding: 0 15px 30px 0;
+    display: flex;
+    justify-content: end;
+}
+.input-mabel {
+    display: flex;
+    flex-direction: column;
+}
+.tombol button {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 55px;
+    outline: none;
+    background-color: var(--main);
+    color: white;
+    font-size: 0.9rem;
+}
+
+.tombol button:hover {
+    background-color: var(--main);
+}
+
+.section-child input,
+.section-child textarea {
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+.section-child input:focus {
+    box-shadow: 0 0 10px #719ece;
+    outline: none !important;
+}
+.section-child textarea:focus {
+    box-shadow: 0 0 10px #719ece;
+    outline: none !important;
+}
+
+.simpan-kehadiran {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.simpan-kehadiran button {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 55px;
+    outline: none;
+    background-color: var(--main);
+    color: white;
+    font-size: 0.9rem;
+}
+
+.simpan-kehadiran button:hover {
+    background-color: var(--hover-color);
+}
+
+.header-title {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #999;
+}
+
+.second {
+    padding-top: 20px;
+}
+
+.ht {
+    font-size: 12px;
+}
+
+.label-to {
+    color: var(--child);
+}

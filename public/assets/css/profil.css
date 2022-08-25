@@ -1,0 +1,68 @@
+.profil-title {
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 15px;
+}
+.profil-title span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #666;
+}
+
+.profil-head-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profil-head-content .dua .profil-nipy span {
+    color: #999;
+    font-weight: 600;
+}
+.profil-head-content .dua .profil-location span {
+    color: blue;
+    font-weight: 500;
+}
+
+.profil-head-content .profil-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profil-head-content img {
+    max-width: 180px;
+    height: auto;
+}
+
+.profil-head-content .profil-nama span {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(117, 116, 116);
+}
+
+.profil-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: white;
+    color: #666;
+    max-width: 490px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.profil-main-content table {
+    font-size: 14px;
+}
+
+.profil-main-content table td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.profil-main-content table td:nth-child(1) {
+    min-width: 140px;
+}

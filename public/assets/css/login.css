@@ -1,0 +1,93 @@
+.container-login {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    max-width: 130px;
+    height: auto;
+}
+
+.judul span {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #333;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-f {
+    max-width: 310px;
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 38px;
+    margin: 10px 0;
+    border-radius: 55px;
+    padding: 0.4rem;
+    display: grid;
+    border: 1px solid #385fab;
+    grid-template-columns: 12% 88%;
+}
+
+.input-f span {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 24px;
+    color: #acacac;
+}
+
+.input-f input {
+    font-size: 1rem;
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: 500;
+    color: #666;
+    margin: 0 0 0 5px;
+}
+
+.input-f input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+}
+
+.tomboll {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.tomboll .tombol-login {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 55px;
+    outline: none;
+    background-color: var(--main);
+    color: white;
+    font-size: 0.9rem;
+}
+
+.tomboll .tombol-login:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}

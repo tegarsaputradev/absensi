@@ -1,0 +1,134 @@
+@import url("init.css");
+@import url("variable.css");
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    overscroll-behavior: contain;
+    /* overflow-y: hidden; */
+}
+
+/* Alert */
+.alert {
+    box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.warning-container {
+    padding-left: 6px;
+}
+
+.warning-p {
+    margin-left: 12px;
+}
+
+.warning-p span {
+    color: #999;
+}
+
+#warning {
+    fill: #f0a938;
+    margin-left: 20px;
+}
+
+.warning {
+    position: absolute;
+    border-radius: 50px;
+    top: 10px;
+    bottom: 10px;
+    left: 6px;
+    width: 3px;
+    background-color: #f0a938;
+    border: 2px solid #f0a938;
+}
+
+.success-container {
+    padding-left: 6px;
+}
+
+.success-p {
+    margin-left: 12px;
+}
+
+.success-p span {
+    color: #999;
+}
+
+#success {
+    fill: #45a779;
+    margin-left: 20px;
+}
+
+.success {
+    position: absolute;
+    border-radius: 50px;
+    top: 10px;
+    bottom: 10px;
+    left: 6px;
+    width: 3px;
+    background-color: #45a779;
+    border: 2px solid #45a779;
+}
+
+.error-container {
+    padding-left: 6px;
+}
+
+.error-p {
+    margin-left: 12px;
+}
+
+.error-p span {
+    color: #999;
+}
+
+#error {
+    fill: #45a779;
+    margin-left: 20px;
+}
+
+.error {
+    position: absolute;
+    border-radius: 50px;
+    top: 10px;
+    bottom: 10px;
+    left: 6px;
+    width: 3px;
+    background-color: #45a779;
+    border: 2px solid #45a779;
+}
+
+.alert-login {
+    max-width: 450px;
+    margin: auto;
+}
+/* End Alert */
+
+/* Responsive */
+@media screen and (max-width: 767px) {
+    .nav-items {
+        position: absolute;
+        background-color: var(--main);
+        padding: 10px 25px 25px 0;
+        border-radius: 10px;
+        right: 15px;
+        top: 55px;
+        box-sizing: border-box;
+    }
+    .nav-items li a {
+        width: 300px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .simpan-kehadiran {
+        margin: 100px 0 30px 0;
+    }
+}
