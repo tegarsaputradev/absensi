@@ -1,8 +1,9 @@
 # absensi
 
-Pastikan bahwa anda suda menkonfigurasi file .env
+Pastikan bahwa anda sudah menkonfigurasi file .env
 
-ketikan perintah :
+Jika sudah
+ketikan perintah di bawah ini:
 - composer install
 - php artisan key:generate
 - php artisan config:cache
