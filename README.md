@@ -2,7 +2,11 @@
 
 Pastikan bahwa anda suda menkonfigurasi file .env
 
-ketikan perintah untuk migrasi database: php artisan migrate --seed
+ketikan perintah untuk migrasi database:
+- composer install
+- composer key:generate
+- composer config:cache
+- php artisan migrate --seed
 
 == Login Akun ==
 
