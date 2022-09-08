@@ -10,10 +10,10 @@ ketikan perintah :
 
 == Login Akun ==
 
--Admin</br>
+-User</br>
 Username: 152011670001</br>
 Password: 123123</br></br>
 
--User</br>
+-Admin</br>
 Username: 152011670002</br>
 Password: 123123
