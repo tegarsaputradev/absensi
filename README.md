@@ -7,9 +7,9 @@ ketikan perintah untuk migrasi database: php artisan migrate --seed
 == Login Akun ==
 
 -Admin</br>
-Username: 152011670001
-Password: 123123
+Username: 152011670001</br>
+Password: 123123</br></br>
 
--User
-Username: 152011670002
+-User</br>
+Username: 152011670002</br>
 Password: 123123
