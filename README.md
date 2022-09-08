@@ -4,8 +4,8 @@ Pastikan bahwa anda suda menkonfigurasi file .env
 
 ketikan perintah :
 - composer install
-- composer key:generate
-- composer config:cache
+- php artisan key:generate
+- php artisan config:cache
 - php artisan migrate --seed
 
 == Login Akun ==
