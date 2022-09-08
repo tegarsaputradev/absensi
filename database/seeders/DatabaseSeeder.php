@@ -66,6 +66,34 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+        User::create([
+            'username' => '152011670001',
+            'name' => 'Tegar Saputra S. Kom',
+            'password' => bcrypt('123123'),
+            'jk' => 'L',
+            'email' => 'tegaracs.ti@gmail.com',
+            'nipy' => '152011670001',
+            'address' => 'Wonosalam, jombang',
+            'contact' => '0816827249',
+            'mapel' => 'Laravel, React, Boostrap',
+            'tgl_lahir' => 'Jombang, 17 Juni 1997',
+            'is_admin' => 0
+        ]);
+        User::create([
+            'username' => '152011670002',
+            'name' => 'Admin',
+            'password' => bcrypt('123123'),
+            'jk' => 'L',
+            'email' => 'tegaracs.ti@gmail.com',
+            'nipy' => '152011670002',
+            'address' => 'Wonosalam, jombang',
+            'contact' => '0816827249',
+            'mapel' => 'Laravel, React, Boostrap',
+            'tgl_lahir' => 'Jombang, 17 Juni 1997',
+            'is_admin' => 1
+        ]);
+
+
 
         $ket = ['Hadir', 'Izin', 'Sakit'];
         $jurnal = ['JKA', 'JLS'];
