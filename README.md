@@ -2,7 +2,7 @@
 
 Pastikan bahwa anda suda menkonfigurasi file .env
 
-ketikan perintah untuk migrasi database:
+ketikan perintah :
 - composer install
 - composer key:generate
 - composer config:cache
